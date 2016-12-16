@@ -5,7 +5,7 @@ import (
 	"unsafe"
 )
 
-//判断两个浮点数是否相等
+//判断两个浮点数是否相等  还没测试呢
 func EqualFloaf64(floatOne, floatTwo, precision float64) bool {
 	if precision < 0.0 {
 		precision = math.SmallestNonzeroFloat64
